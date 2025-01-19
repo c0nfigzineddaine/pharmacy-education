@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pharmacy Education Platform - Courses and Certificates for Pharmacy Students and Professionals">
+    <title>Pharmacy Education Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            padding: 40px 0;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .course-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .course-item {
+            width: 30%;
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: left;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pharmacy Education Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to Your Pharmacy Education Hub</h2>
+            <p>Enhance your knowledge and skills with our comprehensive pharmacy courses and certifications.</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <section id="courses" class="section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Introduction to Pharmacology</h3>
+                    <p>Understand the basics of pharmacology, drug classifications, and mechanisms of action.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="course-item">
+                    <h3>Clinical Pharmacy Practice</h3>
+                    <p>Develop the skills needed for effective clinical pharmacy practice and patient care.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="course-item">
+                    <h3>Pharmaceutical Chemistry</h3>
+                    <p>Dive into the study of chemical properties and synthesis of pharmaceutical agents.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2>Certificates</h2>
+            <p>Earn industry-recognized certificates to showcase your expertise in various areas of pharmacy.</p>
+            <a href="#" class="btn">View Certificates</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are committed to providing high-quality education and resources to pharmacy students and professionals worldwide.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pharmacy Education Platform. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
